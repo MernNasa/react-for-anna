@@ -7,6 +7,9 @@ import UseStateHook from './topics/hooks/usestatehook/UseStateHook'
 import UseStateTask from './topics/hooks/usestatehook/UseStateTask'
 import UseStateTask2 from './topics/hooks/usestatehook/UseStateTask2'
 import UseStateTask3 from './topics/hooks/usestatehook/UseStateTask3'
+import Lifing_Up_State from './topics/hooks/usestatehook/Lifing_Up_State'
+import UseStateTask4 from './topics/hooks/usestatehook/UseStateTask4'
+import UseRefHook from './topics/hooks/userefhook/UseRefHook'
 
 const App = () => {
   return (
@@ -18,7 +21,11 @@ const App = () => {
         {/* <UseStateHook/> */}
         {/* <UseStateTask/> */}
         {/* <UseStateTask2/> */}
-        <UseStateTask3/>
+        {/* <UseStateTask3/> */}
+        {/* <Lifing_Up_State/> */}
+        {/* <UseStateTask4/> */}
+
+        <UseRefHook/>
     </div>
   )
 }
