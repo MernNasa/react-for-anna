@@ -10,6 +10,8 @@ import UseStateTask3 from './topics/hooks/usestatehook/UseStateTask3'
 import Lifing_Up_State from './topics/hooks/usestatehook/Lifing_Up_State'
 import UseStateTask4 from './topics/hooks/usestatehook/UseStateTask4'
 import UseRefHook from './topics/hooks/userefhook/UseRefHook'
+import UseEffectHook from './topics/useeffecthook/UseEffectHook'
+import UseEffectTask from './topics/useeffecthook/UseEffectTask'
 
 const App = () => {
   return (
@@ -25,7 +27,9 @@ const App = () => {
         {/* <Lifing_Up_State/> */}
         {/* <UseStateTask4/> */}
 
-        <UseRefHook/>
+        {/* <UseRefHook/> */}
+        {/* <UseEffectHook/> */}
+        <UseEffectTask/>
     </div>
   )
 }
